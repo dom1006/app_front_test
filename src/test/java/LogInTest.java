@@ -15,6 +15,7 @@ public class LogInTest {
 
     @Test(priority = 1)
     public void logIn() throws InterruptedException {
+
         driver.get("https://192.168.1.77/login.html");
         Thread.sleep(5000);
         driver.close();
