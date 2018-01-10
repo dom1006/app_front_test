@@ -25,6 +25,11 @@
             <artifactId>selenium-chrome-driver</artifactId>
             <version>LATEST</version>
         </dependency>
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>LATEST</version>
+        </dependency>
 
     </dependencies>
 </project>
