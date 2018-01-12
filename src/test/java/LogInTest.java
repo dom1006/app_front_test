@@ -38,6 +38,14 @@ public class LogInTest {
         Assert.assertEquals(userName, "Aleksandra Grzywacz");
     }
 
+    @Test(priority = 2)
+    public void addNewSupplier() {
+        WebElement filesButton = driver.findElements(By.className("x-treelist-item-collapsed"))
+                .stream()
+                .filter()
+                .findFirst();
+    }
+
 
 
     @AfterTest
